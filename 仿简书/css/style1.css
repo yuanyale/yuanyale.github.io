@@ -1,0 +1,515 @@
+/*样式重置*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*nav部分*/
+nav {
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%;
+    min-width: 944px;
+    background: #fff;
+    padding-top: 9px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 20;
+}
+
+nav .nav-logo {
+    float: left;
+    z-index: 6;
+}
+
+nav .nav-fn {
+    float: right;
+}
+
+nav li {
+    float: left;
+}
+
+nav .nav-logo img {
+    width: 56px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav .nav-logo li:nth-of-type(1) {
+    margin-right: 134px;
+}
+
+nav .nav-logo li:nth-of-type(2) a {
+    font: 20px/47px "微软雅黑";
+    color: #ea6f5a;
+    margin-right: 41px;
+}
+
+nav .nav-logo li:nth-of-type(3) a {
+    color: #000000;
+    font: 18px/47px "微软雅黑";
+    margin-right: 41px;
+}
+
+nav .nav-logo li input {
+    width: 160px;
+    height: 38px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    background: #eee url("../img/icon-nav.gif") no-repeat right center;
+    text-indent: 20px;
+    margin-top: 2px;
+}
+
+nav .nav-fn {
+    font-size: 16px;
+    line-height: 47px;
+}
+
+nav .nav-fn li:nth-of-type(1) a {
+    color: #969696;
+    font-weight: bold;
+}
+
+nav .nav-fn li:nth-of-type(2) a {
+    color: #969696;
+    margin: 0 34px;
+}
+
+nav .nav-fn li:nth-of-type(3) a {
+    display: inline-block;
+    width: 78px;
+    height: 36px;
+    border: 1px solid #ea6f5a;
+    color: #ea6f5a;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 5px;
+}
+
+nav .nav-fn li:nth-of-type(4) a {
+    display: inline-block;
+    width: 100px;
+    height: 38px;
+    color: #fff;
+    background: #ea6f5a url("../img/icon-4.gif") no-repeat 8px 10px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+/*banner部分*/
+.center {
+    width: 944px;
+    margin:47px auto 0 auto;
+}
+
+.banner {
+    position: relative;
+    margin-bottom: 40px;
+    height: 272px;
+    overflow: hidden;
+}
+.banner .big{
+    height: 272px;
+    float: left;
+    font-size: 0;
+    position: relative;
+}
+.banner .bigImg{
+    position: absolute;
+}
+.banner .bigImg img {
+    width: 630px;
+}
+.banner .small{
+    font-size: 0;
+    position: relative;
+}
+.banner .smallImg{
+    position: absolute;
+    right: 0;
+}
+.banner .smallImg img {
+    width: 314px;
+}
+.banner .prve {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 40px;
+    height: 80px;
+    margin-top: -40px;
+    outline: none;
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.banner .next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 40px;
+    height: 80px;
+    margin-top: -40px;
+    outline: none;
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main {
+    float: left;
+    width: 630px;
+}
+
+.main .select {
+    padding-bottom: 33px;
+}
+
+.main .select ul li {
+    float: left;
+    margin-right: 23px;
+    font: 14px/32px "微软雅黑";
+}
+
+.main .select ul li.bot {
+    margin-bottom: 18px;
+}
+
+.main .select ul li.no-mar {
+    margin-right: 0;
+}
+
+.main .select ul li a.no-border {
+    border: none;
+    color: #787878;
+}
+
+.main .select ul li img {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.main .select ul li a {
+    height: 32px;
+    display: inline-block;
+    border: 1px solid #dcdcdc;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 12px;
+    border-radius: 4px;
+}
+
+/*内容样式*/
+.content dl {
+    border-top: 1px solid #f0f0f0;
+}
+
+.content .userinformation {
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.content .poppic img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.content .user {
+    display: inline-block;
+    font: 14px/30px "微软雅黑";
+    vertical-align: middle;
+    margin: 0 12px 0 12px;
+}
+
+.content .time {
+    display: inline-block;
+    font: 14px/30px "微软雅黑";
+    vertical-align: middle;
+    color: #96a3bd;
+}
+
+.content .wrap {
+    width: 460px;
+    float: left;
+}
+
+.content h3 {
+    font: bold 18px/35px "微软雅黑";
+}
+
+.content p {
+    font: 14px/24px "微软雅黑";
+}
+
+.content dd.review img {
+    width: 148px;
+    height: 118px;
+    float: right;
+}
+
+.content .act {
+    margin-bottom: 17px;
+}
+
+.content .act .thinking {
+    padding: 3px 6px;
+    display: inline-block;
+    height: 18px;
+    border: 1px solid #f2907f;
+    font: 14px/18px "微软雅黑";
+    text-align: center;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+.content .act .thinking a {
+    color: #f2907f;
+}
+
+.content .act img {
+    width: 16px;
+    height: 13px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.content .act .watch a,
+.content .act .speak a,
+.content .act .like,
+.content .act .pay {
+    font: 10px/20px "微软雅黑";
+    color: #b4b4b4;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+.content .more {
+    border-top: 1px solid #f0f0f0;
+}
+
+.content .more button {
+    width: 100%;
+    font: 16px/40px "微软雅黑";
+    background: #a5a5a5;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 88px;
+    cursor: pointer;
+}
+
+/*底部信息样式*/
+.content footer li {
+    float: left;
+    font: 14px/14px "微软雅黑";
+    margin-bottom: 15px;
+}
+
+.content footer li a {
+    color: #969696;
+}
+
+.content footer p:nth-of-type(1) {
+    color: #969696;
+    font: 14px/14px "微软雅黑";
+}
+
+.content footer p:nth-of-type(2) a {
+    color: #969696;
+    font: 14px/14px "微软雅黑";
+}
+
+.content footer p:nth-of-type(2) a:hover {
+    color: #000;
+}
+
+.content footer p:nth-of-type(2) img {
+    width: 54px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+/*侧边栏样式*/
+.sild {
+    float: right;
+    margin-left: 34px;
+}
+
+.sild li {
+    margin-bottom: 10px;
+}
+
+.sild img {
+    width: 280px;
+    height: 46px;
+}
+
+.sild .downapp img {
+    width: 280px;
+    height: 140px;
+}
+
+.sild .download-btn {
+    position: relative;
+}
+
+.sild .btn {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+}
+
+.sild .btn img {
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+}
+
+.sild .btn button {
+    width: 76px;
+    margin-right: 10px;
+    border: none;
+    font: 14px/37px "微软雅黑";
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sild .btn button.saoma {
+    background: #a5a5a5;
+}
+
+.sild .btn button.an {
+    background: #8bc453;
+}
+
+.sild .btn button.ios {
+    background: #6dacf4;
+    margin-right: 0;
+}
+
+.sild .intrudce li {
+    margin-bottom: 14px;
+}
+
+.sild .intrudce .first span:nth-of-type(1) a,
+.sild .intrudce .first span:nth-of-type(2),
+.sild .intrudce .first span:nth-of-type(3) a,
+.sild .intrudce .first span:nth-of-type(4) a {
+    font: 14px/22px "微软雅黑";
+    color: #969696;
+}
+
+.sild .intrudce .first {
+    margin-bottom: 20px;
+}
+
+.sild .intrudce .first span:nth-of-type(2) {
+    margin: 0 16px 0 120px;
+}
+
+.sild .intrudce .first span:nth-of-type(3) a,
+.sild .intrudce .first span:nth-of-type(4) a {
+    border: 1px solid #969696;
+    width: 22px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.sild .intrudce .first span:nth-of-type(3) a {
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.sild .intrudce .first span:nth-of-type(4) a {
+    border-radius: 0 4px 4px 0;
+}
+
+.sild .intrudce .autor img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #969696;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.sild .intrudce .autor div {
+    float: left;
+    padding: 6px 0 0 0;
+}
+
+.sild .intrudce .autor div h4 {
+    font: bold 14px/20px "微软雅黑";
+    margin-bottom: 6px;
+}
+
+.sild .intrudce .autor div p {
+    font: 12px/12px "微软雅黑";
+    color: #969696;
+}
+
+.sild .intrudce .autor .check {
+    color: #42c02e;
+    font: 14px/14px "微软雅黑";
+    float: right;
+    cursor: pointer;
+}
+
+.sild .intrudce li.all a {
+    width: 278px;
+    height: 33px;
+    display: inline-block;
+    border: 1px solid #969696;
+    border-radius: 4px;
+    color: #969696;
+    text-align: center;
+    font: 14px/33px "微软雅黑";
+    margin-top: 5px;
+}
+
+/*返回顶部*/
+.turnToTop a{
+    color: #555;
+    position: fixed;
+    bottom:80px;
+    right: 80px;
+}
+.turnToTop a:hover{
+    color: #fff;
+    background: #555;
+}
