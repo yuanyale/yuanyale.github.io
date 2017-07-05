@@ -188,6 +188,9 @@ body {
 #contact li {
   margin-top: 20px;
 }
+#contact li a {
+  color: #fff;
+}
 #contact p {
   margin-top: 20px;
 }
