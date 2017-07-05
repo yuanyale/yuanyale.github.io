@@ -1,0 +1,202 @@
+.active {
+  background: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+}
+#timer {
+  position: absolute;
+  font: 14px/16px "微软雅黑";
+  margin-top: 10px;
+  text-indent: 10px;
+}
+#index {
+  width: 100%;
+  height: 488px;
+  padding-top: 150px;
+  margin: 0 auto 0 auto;
+  background: #a29971;
+}
+#index img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+}
+#index h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#index p {
+  margin: 0 auto;
+  text-indent: 80px;
+  width: 380px;
+  font: 20px/30px "微软雅黑";
+}
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#skill {
+  width: 100%;
+  height: 638px;
+  background: #4b85a0;
+}
+#skill:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#skill .window {
+  width: 35%;
+  height: 400px;
+  border: 1px solid #fff;
+  margin: 100px 0 0 10px;
+  float: left;
+  transform-style: preserve-3d;
+  perspective: 800px;
+}
+#skill .window p {
+  margin-top: 5px;
+  color: #fff;
+  cursor: default;
+}
+#skill .window p:nth-of-type(1) {
+  margin-left: 30px;
+  animation: 3s move linear 0.1s infinite;
+}
+#skill .window p:nth-of-type(2) {
+  margin-left: 150px;
+  animation: 3s move linear 1s infinite;
+}
+#skill .window p:nth-of-type(3) {
+  margin-left: 40px;
+  animation: 3s move linear 1.5s infinite;
+}
+#skill .window p:nth-of-type(4) {
+  margin-left: 160px;
+  animation: 3s move linear 0.5s infinite;
+}
+#skill .window p:nth-of-type(5) {
+  margin-left: 200px;
+  animation: 3s move linear 1s infinite;
+}
+#skill .window p:nth-of-type(6) {
+  margin-left: 20px;
+  animation: 3s move linear 1.3s infinite;
+}
+#skill .window p:nth-of-type(7) {
+  margin-left: 50px;
+  animation: 3s move linear 0.5s infinite;
+}
+#skill .window p:nth-of-type(8) {
+  margin-left: 80px;
+  animation: 3s move linear 0.6s infinite;
+}
+#skill .window p:nth-of-type(9) {
+  margin-left: 120px;
+  animation: 3s move linear 0s infinite;
+}
+#skill .window p:nth-of-type(10) {
+  margin-left: 60px;
+  animation: 3s move linear 1.8s infinite;
+}
+#skill .window p:nth-of-type(11) {
+  margin-left: 112px;
+  animation: 3s move linear 2s infinite;
+}
+#skill .window p:nth-of-type(12) {
+  margin-left: 60px;
+  animation: 3s move linear 1.2s infinite;
+}
+#skill .window p:nth-of-type(13) {
+  margin-left: 250px;
+  animation: 3s move linear 1.3s infinite;
+}
+#skill .window p:nth-of-type(14) {
+  margin-left: 150px;
+  animation: 3s move linear 1.5s infinite;
+}
+@keyframes move {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#skill .container {
+  width: 50%;
+  padding-left: 10px;
+  margin-top: 200px;
+  float: left;
+}
+#skill .container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#skill .container p {
+  font: 16px/28px "微软雅黑";
+}
+#about {
+  width: 100%;
+  height: 488px;
+  background: #109085;
+  padding-top: 150px;
+  color: #fff;
+}
+#about:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#about div {
+  height: 150px;
+  float: left;
+  margin-left: 22%;
+}
+#about img {
+  width: 50px;
+  height: 50px;
+}
+#about span {
+  display: block;
+}
+#about aside {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 18px;
+}
+#contact {
+  width: 100%;
+  height: 488px;
+  background: #4b85a0;
+  color: #fff;
+  text-align: center;
+  padding-top: 150px;
+}
+#contact li {
+  margin-top: 20px;
+}
+#contact p {
+  margin-top: 20px;
+}
+#contact p input {
+  width: 100px;
+  height: 38px;
+  font: 18px/38px "微软雅黑";
+}
+#contact h3 {
+  margin-top: 40px;
+  font-size: 40px;
+}
